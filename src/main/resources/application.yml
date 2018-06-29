@@ -1,0 +1,21 @@
+server:
+  port: 9012
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    database: MYSQL
+  datasource:
+    url:
+    username:
+    password:
+    driverClassName: com.mysql.cj.jdbc.Driver
+  data:
+    mongodb:
+      host:
+      port:
+      username:
+      password:
+      database:
+
+
